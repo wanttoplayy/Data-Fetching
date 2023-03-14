@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;600&display=swap');
+
+* {
+    font-family: 'Mitr', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Mitr', sans-serif;
+    font-size: xxx-large;
+    color: cornflowerblue;
+}
+
+.input-label {
+    font-family: 'Mitr', sans-serif;
+}
+
+input {
+    width: 600px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Body */
+
+.texts {
+    height: 400px;
+}
+
+h3 {
+    font-size: larger;
+}
+
+.preview-image {
+    margin-right: 20px;
+    height: 400px;
+}
+
+
+.description {
+    width: 450px;
+    color: gray;
+}
+
+.image {
+    width: 600px;
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.place-container {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+.addi-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: gray;
+}
+span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.link-pic {
+    width:50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 185px;
+}
+
+.link-pic:hover img {
+    color: red;
+}
